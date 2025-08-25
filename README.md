@@ -1,13 +1,41 @@
 # Signal Analysis Device Based on MSPM0G3507
 
+[![TI](https://img.shields.io/badge/TI-MSPM0G3507-red.svg)](https://www.ti.com/product/MSPM0G3507)
+[![CCS](https://img.shields.io/badge/IDE-Code%20Composer%20Studio-blue.svg)](https://www.ti.com/tool/CCSTUDIO)
+[![C](https://img.shields.io/badge/Language-C-brightgreen.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Language / 语言选择:**
+- [🇺🇸 English](#english-version)
+- [🇨🇳 中文](#chinese-version)
+
+## Competition Requirements
+
+<div align="center">
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/question1.jpg" width="45%" alt="Question 1"/>
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/question2.jpg" width="45%" alt="Question 2"/>
+</div>
+
+---
+
+<div id="english-version"></div>
+
+# English Version
+
+**[⬆️ Back to Top](#signal-analysis-device-based-on-mspm0g3507)** | **[🇨🇳 切换到中文](#chinese-version)**
+
 ## Project Overview
+
+<div align="center">
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/system.png" width="80%" alt="System Overview"/>
+</div>
 
 This project implements a comprehensive signal analysis system based on the MSPM0G3507 microcontroller. The system provides AC signal conditioning, measurement, and wireless transmission capabilities. It features signal conditioning circuits using on-chip programmable operational amplifiers, frequency measurement across multiple ranges, waveform analysis, and wireless data transmission.
 
 ### Key Features
 
-- **Signal Conditioning**: 60mVpp~1000mVpp AC signal conditioning to 0~3.3V range
-- **Multi-range Frequency Measurement**: 1Hz~100kHz with optimized algorithms
+- **Signal Conditioning**: 60mVpp-1000mVpp AC signal conditioning to 0-3.3V range
+- **Multi-range Frequency Measurement**: 1Hz-100kHz with optimized algorithms
 - **Waveform Analysis**: Peak-to-peak measurement and waveform classification
 - **Wireless Communication**: Bluetooth data transmission via HC-05 module
 - **Audio Signal Recognition**: Threshold-based audio signal identification
@@ -274,6 +302,13 @@ Based on RMS-to-peak-to-peak ratio analysis:
 - **Display Update**: Real-time OLED refresh
 - **Wireless Transmission**: Continuous data streaming
 
+## Demo Effects
+
+<div align="center">
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/image1.png" width="45%" alt="Demo Effect 1"/>
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/image2.png" width="45%" alt="Demo Effect 2"/>
+</div>
+
 ## Build and Usage Instructions
 
 ### Prerequisites
@@ -330,40 +365,46 @@ G3507_ADC_MAX_FREQ_OLED_KEY_TIMER_UART/
     └── readme.txt                         # Configuration notes
 ```
 
-## Competition Requirements Compliance
-
-This design fully implements the competition requirements as specified:
-
-### Basic Requirements ✅
-- **Input Signal Frequency Range**: 1kHz-10kHz ✅
-- **Input Signal Peak-to-Peak Range**: 60mVpp-1000mVpp ✅
-- **Frequency Measurement Function**: Precision 0.1%+0.5Hz ✅
-- **Peak-to-Peak Measurement Function**: Precision 1%+1mV ✅
-
-### Extended Features ✅
-- **Extended Frequency Range**: 1Hz-100kHz (beyond basic 1kHz-10kHz) ✅
-- **Audio Recognition Function**: Contact-triggered audio identification ✅
-- **Additional Features**: OLED display, Bluetooth transmission, automatic range switching ✅
-
-### Innovation Points
-- Adaptive frequency measurement using three different algorithms
-- Dual-threshold audio recognition system
-- Real-time waveform classification
-- Wireless data transmission capability
-- Comprehensive signal conditioning using on-chip resources
-
 ---
 
 # MSPM0G3507信号分析设备
 
+[![TI](https://img.shields.io/badge/TI-MSPM0G3507-red.svg)](https://www.ti.com/product/MSPM0G3507)
+[![CCS](https://img.shields.io/badge/IDE-Code%20Composer%20Studio-blue.svg)](https://www.ti.com/tool/CCSTUDIO)
+[![C](https://img.shields.io/badge/Language-C-brightgreen.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Language / 语言选择:**
+- [🇺🇸 English](#english-version)
+- [🇨🇳 中文](#chinese-version)
+
+## 竞赛题目
+
+<div align="center">
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/question1.jpg" width="45%" alt="题目1"/>
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/question2.jpg" width="45%" alt="题目2"/>
+</div>
+
+---
+
+<div id="chinese-version"></div>
+
+# Chinese Version
+
+**[⬆️ 返回顶部](#signal-analysis-device-based-on-mspm0g3507)** | **[🇺🇸 Switch to English](#english-version)**
+
 ## 项目概述
+
+<div align="center">
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/system.png" width="80%" alt="系统概览"/>
+</div>
 
 本项目基于MSPM0G3507微控制器实现了一个综合性信号分析系统。系统提供交流信号调理、测量和无线传输功能，特色在于使用片内可编程运算放大器、多频段频率测量、波形分析和无线数据传输。
 
 ### 主要特性
 
-- **信号调理**: 将60mVpp~1000mVpp交流信号调理至0~3.3V范围
-- **多频段频率测量**: 1Hz~100kHz范围内的优化算法测量
+- **信号调理**: 将60mVpp-1000mVpp交流信号调理至0-3.3V范围
+- **多频段频率测量**: 1Hz-100kHz范围内的优化算法测量
 - **波形分析**: 峰峰值测量和波形分类识别
 - **无线通信**: 通过HC-05蓝牙模块进行数据传输
 - **音频信号识别**: 基于阈值的音频信号识别算法
@@ -630,6 +671,13 @@ This design fully implements the competition requirements as specified:
 - **显示更新**: OLED实时刷新
 - **无线传输**: 连续数据流传输
 
+## 演示效果
+
+<div align="center">
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/image1.png" width="45%" alt="演示效果1"/>
+  <img src="https://github.com/IllusionMZX/NEU-EEContest2025-SignalDev/blob/main/IMAGE/image2.png" width="45%" alt="演示效果2"/>
+</div>
+
 ## 编译和使用说明
 
 ### 先决条件
@@ -685,27 +733,3 @@ G3507_ADC_MAX_FREQ_OLED_KEY_TIMER_UART/
     ├── MSPM0G3507.ccxml                   # 目标配置
     └── readme.txt                         # 配置说明
 ```
-
-## 竞赛要求符合性
-
-本设计完全实现了竞赛要求：
-
-### 基本要求 ✅
-- **输入信号频率范围**: 1kHz-10kHz ✅
-- **输入信号峰峰值范围**: 60mVpp-1000mVpp ✅
-- **频率测量功能**: 精度0.1%+0.5Hz ✅
-- **峰峰值测量功能**: 精度1%+1mV ✅
-
-### 发挥部分 ✅
-- **扩展频率范围**: 1Hz-100kHz（超越基本1kHz-10kHz要求）✅
-- **音频识别功能**: 接触触发音频识别 ✅
-- **附加功能**: OLED显示、蓝牙传输、自动量程切换 ✅
-
-### 创新点
-- 使用三种不同算法的自适应频率测量
-- 双阈值音频识别系统
-- 实时波形分类
-- 无线数据传输能力
-- 使用片内资源的综合信号调理
-
-该系统通过精心设计的硬件配置和算法优化，完全满足竞赛的技术指标要求，并在发挥部分实现了显著创新。
